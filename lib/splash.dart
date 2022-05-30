@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:second_hand/intro.dart';
 import 'package:second_hand/utils.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -13,6 +16,11 @@ class SplashScreen extends StatefulWidget {
 class _SplashState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
+    Timer(
+        Duration(seconds: 3),
+            () =>
+            Navigator.of(context).pushReplacement(MaterialPageRoute(
+                builder: (BuildContext context) => IntroScreen())));
     return Container(
         color: AppColors.white,
         child: Stack(

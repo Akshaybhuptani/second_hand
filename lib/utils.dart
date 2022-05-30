@@ -11,6 +11,8 @@ class AppColors {
 
 class ImageConstant {
   static const String appIcon = 'assets/images/icon_app.svg';
+  static const String notification_intro = 'assets/images/notification_intro.png';
+  static const String language_intro = 'assets/images/language_intro.png';
 }
 
 class FontSize {
