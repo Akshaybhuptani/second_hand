@@ -16,7 +16,7 @@ class _IntroScreenState extends State<IntroScreen> {
     super.initState();
     slides.add(
       Slide(
-        title: 'Area wise \n Local Notification',
+        title: 'Area Wise \n Local Notification',
         maxLineTitle: 2,
         description: "Get notified when someone buy or sell in your area..",
         pathImage: ImageConstant.notification_intro,
@@ -54,11 +54,21 @@ class _IntroScreenState extends State<IntroScreen> {
     );
     slides.add(
       Slide(
-        title: "RULER",
-        description:
-        "Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of",
-        pathImage: "images/photo_ruler.png",
-        backgroundColor: const Color(0xff9932CC),
+          title: 'Set Budget We Will Find For You...!',
+          maxLineTitle: 2,
+          description: "We will notify you everyday according to your budget.",
+          pathImage:ImageConstant.budget_intro ,
+          backgroundColor: AppColors.orange,
+          styleDescription: GoogleFonts.montserrat(
+              color: AppColors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: FontSize.fontMedium,
+              decoration: TextDecoration.none),
+          styleTitle:  GoogleFonts.montserrat(
+              color: AppColors.white,
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              decoration: TextDecoration.none)
       ),
     );
   }
