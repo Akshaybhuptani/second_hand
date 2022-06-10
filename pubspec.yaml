@@ -25,6 +25,9 @@ dependencies:
   #intro screen
   intro_slider: ^3.0.5
 
+  #for block pattern
+  rxdart: ^0.27.4
+
 
 dev_dependencies:
   flutter_test:

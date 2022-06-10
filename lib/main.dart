@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:second_hand/language.dart';
+import 'package:second_hand/screens/language/language.dart';
 import 'package:second_hand/utils.dart';
 import 'intro.dart';
 
