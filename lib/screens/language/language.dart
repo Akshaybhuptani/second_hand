@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:second_hand/intro.dart';
 import 'package:second_hand/screens/language/language_block.dart';
 import 'package:second_hand/screens/location/location.dart';
 import 'package:second_hand/utils.dart';
@@ -280,7 +279,7 @@ class _LanguageState extends State<Language> {
                   padding: const EdgeInsets.only(bottom: 15),
                   child: ConstrainedBox(
                     constraints: BoxConstraints.tightFor(
-                        width: double.infinity, height: 40),
+                        width: double.infinity, height: 45),
                     child: ElevatedButton(
                         onPressed: () {
                           Navigator.of(context).push(MaterialPageRoute(
